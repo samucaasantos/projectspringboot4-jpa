@@ -69,12 +69,12 @@ public class Order implements Serializable {
         return client;
     }
 
-    public Set<OrderItem> getItems() {
-        return items;
-    }
-
     public void setClient(User client) {
         this.client = client;
+    }
+
+    public Set<OrderItem> getItems() {
+        return items;
     }
 
     @Override
