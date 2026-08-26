@@ -1,0 +1,11 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/nome_do_seu_bd_aqui
+spring.datasource.username=postgres
+spring.datasource.password=*PUT YOUR PASSAWORD HERE*
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+jwt.secret=*PUT YOUR SECRET HERE*
+jwt.expiration=3600000
